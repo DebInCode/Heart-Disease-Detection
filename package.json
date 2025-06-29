@@ -1,0 +1,63 @@
+{
+  "name": "heart-disease-predictor-frontend",
+  "version": "1.0.0",
+  "description": "Modern React.js frontend for Heart Disease Prediction Web App",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.0",
+    "react-bootstrap": "^2.8.0",
+    "react-i18next": "^12.2.0",
+    "i18next": "^22.4.15",
+    "i18next-browser-languagedetector": "^7.0.1",
+    "react-chartjs-2": "^5.2.0",
+    "chart.js": "^4.3.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.10.1",
+    "framer-motion": "^10.12.16",
+    "react-tooltip": "^5.18.1",
+    "react-csv": "^2.2.2",
+    "file-saver": "^2.0.5",
+    "react-step-progress": "^1.0.3",
+    "react-helmet": "^6.1.0",
+    "react-intersection-observer": "^9.5.2",
+    "react-countup": "^6.4.2",
+    "react-particles": "^2.9.3",
+    "tsparticles": "^2.9.3",
+    "react-typed": "^1.2.0",
+    "react-spring": "^9.7.3",
+    "react-use": "^17.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:8501"
+}
